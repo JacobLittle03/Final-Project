@@ -170,6 +170,34 @@ main p {
     font-size: 1.25em;
 }
 
+.mainhome {
+    background-color: #FFEAEB;
+    padding: 2%;
+    font-family: "Poppins", sans-serif;
+}
+
+.mainphoto {
+    background-color: #FFD6D7;
+    padding: 2%;
+    font-family: "Raleway", sans-serif;
+}
+
+.mainillust {
+    background-color: #FFC1C3;
+    padding: 2%;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.maintrad {
+    background-color: #FFADB0;
+    padding: 2%;
+    font-family: "Manrope", sans-serif;
+}
+
+.mainvideo {
+    background-color: #FF7074;
+}
+
 .pindex {
     color: #711F22;
     text-shadow: 2px 2px 5px #FF999C; 
@@ -594,28 +622,6 @@ footer a {
         margin-left: auto;
         margin-right: auto;
         font-size: 1.6em;
-    }
-
-    .mainhome {
-        background-color: #FFEAEB;
-        padding: 2%;
-        font-family: "Poppins", sans-serif;
-    }
-
-    .mainphoto {
-        background-color: #FFD6D7;
-        padding: 2%;
-        font-family: "Raleway", sans-serif;
-    }
-
-    .mainillust {
-        background-color: #FFC1C3;
-        padding: 2%;
-        font-family: "Ubuntu", sans-serif;
-    }
-
-    .mainvideo {
-        background-color: #FF7074;
     }
 
     .lgbio {

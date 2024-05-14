@@ -9,7 +9,8 @@
     <title>The Little Portfolio - Traditional</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="This page displays content drawn on paper."> 
+    <meta name="description" content="This page displays content drawn on paper.">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -18,79 +19,106 @@
 </head>
 
 <div id="wrapper">
-    <body class= "bodytrad">
+    <body class= "bodytrad background">
 
         <!-- Skip to Content Link -->
         <a class="skip" href="#content">Skip to Content</a>
 
-        <!-- Use the header area for the website name or logo.
-            The header contains static content.
-            Update "My Template" with the name of business. -->
+                    <!-- Mobile Nav -->
+                    <nav class="mobile-nav">
+                        <div id="nav-links">
+                            <a href="index.html">Home</a>
+                            <a href="https://redmustachedalien.carrd.co/">Carrd</a>
+                            <a href="photo.html">Photoshop</a>
+                            <a href="illust.html">Illustrator</a>
+                            <a href="trad.html">Traditional Art</a>
+                            <!--<a href="digi.html">Digital Art</a>
+                            <a href="graph.html">Graphic Design</a> -->
+                            <a href="video.html">Videos</a>
+                        </div>
+                        <a class="nav-icon" onclick="hamburger ()">
+                        <div id="icon">&#9776;</div>
+                        </a>
+                    </nav>
+        
+                    <!-- Use the nav area to add hyperlinks to other
+                    pages within the website.
+                    The header contains static content. -->
+        
+                    <nav class = "tab-desk">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="https://redmustachedalien.carrd.co/" target="_blank">Carrd</a></li>
+                            <li><a href="photo.html">Photoshop</a></li>
+                            <li><a href="illust.html">Illustrator</a></li>
+                            <li><a href="trad.html">Traditional Art</a></li>
+                            <!-- <li><a href="digi.html">Digital Art</a></li>
+                            <li><a href="graph.html">Graphic Design</a></li> -->
+                            <li><a href="video.html">Videos</a></li>
+                        </ul>
+                    </nav>
+        
+                    <nav class = "lgdesktop">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="https://redmustachedalien.carrd.co/" target="_blank">Carrd</a></li>
+                            <li><a href="photo.html">Photoshop</a></li>
+                            <li><a href="illust.html">Illustrator</a></li>
+                            <li><a href="trad.html">Traditional Art</a></li>
+                            <!-- <li><a href="digi.html">Digital Art</a></li>
+                            <li><a href="graph.html">Graphic Design</a></li> -->
+                            <li><a href="video.html">Videos</a></li>
+                        </ul>
+                    </nav>
+        
+                <nav class = "desktop">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="https://redmustachedalien.carrd.co/" target="_blank">Carrd</a></li>
+                        <li><a href="photo.html">Photoshop</a></li>
+                        <li><a href="illust.html">Illustrator</a></li>
+                        <li><a href="trad.html">Traditional Art</a></li>
+                        <!-- <li><a href="digi.html">Digital Art</a></li>
+                        <li><a href="graph.html">Graphic Design</a></li> -->
+                        <li><a href="video.html">Videos</a></li>
+                    </ul>
+                </nav>
 
-            <!-- Mobile Nav -->
-            <nav class="mobile-nav">
-                <div id="nav-links">
-                    <a href="index.html">Home</a>
-                    <a href="https://redmustachedalien.carrd.co/">Carrd</a>
-                    <a href="photo.html">Photoshop</a>
-                    <a href="illust.html">Illustrator</a>
-                    <a href="trad.html">Traditional Art</a>
-                    <a href="digi.html">Digital Art</a>
-                    <a href="graph.html">Graphic Design</a>
-                    <a href="video.html">Videos</a>
-                </div>
-            <a class="nav-icon" onclick="hamburger ()">
-            <div id="icon">&#9776;</div>
-            </a>
-            </nav>
-
-            <!-- Use the nav area to add hyperlinks to other
-            pages within the website.
-            The header contains static content. -->
-        <nav class = "tab-desk">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="https://redmustachedalien.carrd.co/" target="_blank">Carrd</a></li>
-                <li><a href="photo.html">Photoshop</a></li>
-                <li><a href="illust.html">Illustrator</a></li>
-                <li><a href="trad.html">Traditional Art</a></li>
-                <li><a href="digi.html">Digital Art</a></li>
-                <li><a href="graph.html">Graphic Design</a></li>
-                <li><a href="video.html">Videos</a></li>
-            </ul>
-        </nav>
-
-        <header>
-            <div class = "tab-desk">
-                <a href = "index.html" target="_self"> <img src="images/Banner.png" width="2500" alt="Red, the site's mascot, holding a custom designed autism flag, standing in front of a space background"></a>
-            </div>
-            <div class = "mobile">
-                <h1>The Little</h1>
-                <h1>Portfolio</h1>
-            </div>
-        </header>
+                <header>
+                    <div class = "tab-desk">
+                        <a href = "index.html" target="_self"> <img src="images/Banner.png" width="2500" alt="Red, the site's mascot, holding a custom designed autism flag, standing in front of a space background"></a>
+                    </div>
+                    <div class = "desktop">
+                        <a href = "index.html" target="_self"> <img src="images/Banner.png" width="2500" alt="Red, the site's mascot, holding a custom designed autism flag, standing in front of a space background"></a>
+                    </div>
+                    <div class = "lgdesktop">
+                        <a href = "index.html" target="_self"> <img src="images/Banner.png" width="2500" alt="Red, the site's mascot, holding a custom designed autism flag, standing in front of a space background"></a>
+                    </div>
+                    <div class = "mobile">
+                        <h1>The Little Portfolio</h1>
+                    </div>
+                </header>
         
         <!-- Use the main area to add main content to the webpage. -->
-        <main id="content">
-            <div class="mobile-tablet">
-                <img src="images/Jacob.jpg" width="300px" height="300px" alt="Professional image of Jacob Little">
-                <p>Greetings! My name is Jacob Little. I currently attend Elmhurst University and aim to complete digital media as my major so I can explore
-                the world of digital media and what it has to offer career-wise! This portfolio is a display of my evolution
-                in terms of my artwork/displaying the skill-set I have, that mainly revolving around digital work,
-                but there is traditional work as well to be accounted for. I have been drawing since 2014 and
-                doing digital work since 2016, and while this is more recent work, it is an improvement from where
-                I first started. Have a great day and hopefully you enjoy what you see!</p>
+        <main class="maintrad" id="content">
+
+            <h2>Twisted Chica</h2>
+            <div class="grid2">
+                    <figure class="figurephoto">
+                        <img src="images/traditional/twistchick1.jpg" alt="Artwork of Twisted Chica, drawn colored in 2018">
+                        <figcaption class = "figcaptionphoto">Twisted Chica (colored drawing, traditional, 2018)</figcaption>
+                    </figure>
+                    <figure class="figurephoto">
+                        <img src="images/traditional/twistchick2.jpg" alt="Steven Universe logo (modified) on backside">
+                        <figcaption class = "figcaptionphoto">Twisted Chica (drawing, traditional, 2020)</figcaption>
+                    </figure>
             </div>
 
-            <div class="desktop">
-                <img src="images/Jacob.jpg" width="300px" height="300px" alt="Professional image of Jacob Little">
-                <p>Greetings! My name is Jacob Little. I currently attend Elmhurst University and aim to complete digital media as my major so I can explore
-                the world of digital media and what it has to offer career-wise! This portfolio is a display of my evolution
-                in terms of my artwork/displaying the skill-set I have, that mainly revolving around digital work,
-                but there is traditional work as well to be accounted for. I have been drawing since 2014 and
-                doing digital work since 2016, and while this is more recent work, it is an improvement from where
-                I first started. Have a great day and hopefully you enjoy what you see!</p>
+            <div class="dialog">
+                <p>Twisted Chica from <i>Five Nights at Freddy's: The Twisted Ones</i>. Novel originally released in 2018
+                and character design by <i>LadyFiszi</i>.</p>
             </div>
+
         </main>
 
         <!-- Use the footer area to add footer content. -->
