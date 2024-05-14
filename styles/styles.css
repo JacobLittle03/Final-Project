@@ -1,0 +1,642 @@
+/* Student Name: Jacob Little
+File Name: styles.css
+Date: 4/26/2024
+*/
+
+/* CSS RESET
+*/
+
+body, header, nav, main, footer, img, h1, h3, ul, aside, figure, figcaption, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    }
+
+/*Style rules for body and images
+*/
+
+body {
+    background-color: #FFEAEB;
+}
+
+.bodyphoto {
+    background-color: #FFD6D7;
+}
+
+.bodyillust {
+    background-color: #FFC1C3;
+}
+
+.bodytrad {
+    background-color: #FFADB0;
+}
+
+.bodydigi {
+    background-color: #FF999C;
+}
+
+.bodygraph {
+    background-color: #FF8488;
+}
+
+.bodyvideo {
+    background-color: #FF7074;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    z-index:-1;
+}
+
+video {
+    max-width: 100%;
+    display: block;
+    z-index:-1;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Style rules for skip navigation link */
+.skip {
+    position: absolute;
+    left: -999px;
+}
+
+.skip:focus {
+    color: #fff;
+    background-color: #2a1f14;
+    text-decoration: none;
+    padding: 0.5%;
+    top: auto;
+    left: auto;
+    right: 1px;
+    z-index: 1;
+}
+
+/*Style rules for mobile viewport*/
+
+/* Style rules to show mobile class and hide tab-desk class*/
+
+.mobile, .mobile-tablet {
+    display: block;
+}
+
+.tab-desk, .desktop {
+    display: none;
+}
+
+.lgdesktop {
+    display: none;
+}
+
+#nav-links {
+    display: none;
+}
+
+/*Style rules for header area*/
+
+.mobile h1 {
+    padding: 2%;
+    text-align: center;
+    font-family: "Emblema One", system-ui;
+    margin: 2% 0 0 3%;
+}
+
+.h1video {
+    padding: 2%;
+    text-align: center;
+    font-family: "Emblema One", system-ui;
+    margin: 2% 0 0 3%;
+    color: #fff;
+    text-shadow: 3px 3px 5px #000;
+}
+
+.mobile h3 {
+    padding: 2%;
+    text-align: center;
+    font-family: "Lora", serif;
+}
+
+/*Style rules for navigation area
+*/
+
+nav {
+    background-color: #D5211D;
+}
+
+.mobile-nav a {
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    padding: 3%;
+    display: block;
+}
+
+.mobile-nav a.nav-icon {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #f6eee4;
+    padding: 2%;
+}
+    
+.nav-icon div {
+    height: 40px;
+    width: 40px;
+    color: #D5211D;
+}
+
+/*Style rules for main content
+*/
+
+main p {
+    font-size: 1.25em;
+}
+
+.pindex {
+    color: #711F22;
+    text-shadow: 2px 2px 5px #FF999C; 
+}
+
+.pvideo {
+    font-size: 1.25em;
+    color: #fff;
+    text-shadow: 3px 3px 5px #000;
+}
+
+main h3 {
+    padding-top: 2%;
+}
+
+main h2 {
+    text-align: center;
+}
+
+.mobbio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.h2video {
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 3px 5px #000;
+}
+
+main ul {
+    list-style-type: square;
+}
+
+.link {
+    color: #4d3319;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.action {
+    font-size: 1.75em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.round {
+    border-radius: 6px;
+}
+
+aside {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 4px 4px 10px #c5a687;
+}
+
+.dialog {
+    text-align: center;
+}
+
+figure {
+    border: 4px solid #2a1f14;
+    max-width: 400px;
+    margin: 2% auto;
+}
+
+.figurevideos {
+    border: 4px solid #380F11;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 2% auto;
+}
+
+.figurephoto {
+    border: 4px solid #C6373C;
+    margin: 2% auto;
+}
+
+figcaption {
+    padding: 2%;
+    border-top: 4px solid #2a1f14;
+    text-align: center;
+    background-color: #fff;
+}
+
+.figcaptionphoto {
+    padding: 2%;
+    border-top: 4px solid #C6373C;
+    text-align: center;
+    background-color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.figcaptionvideo {
+    padding: 2%;
+    border-top: 4px solid #380F11;
+    text-align: center;
+    background-color: #fff;
+}
+
+.hrphoto {
+    height: 4px;
+    background-color: #ff474c;
+    border: none;
+}
+
+.hrvideo {
+    height: 4px;  
+    background-color: #AA2F33;   
+    border: none; 
+}
+
+#info ul {
+    margin-left: 10%;
+}
+
+/*Style rules for footer content
+*/
+
+footer {
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 0.85em;
+    background-color: #D5211D;
+    color: #f6eee4;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+footer a {
+    color: #f3e6d8;
+    text-decoration: none;
+}
+
+/* Media Query for Tablet Viewport */
+
+@media screen and (min-width: 620px), print {
+
+    /* Tablet Viewport: Show tab-desk class, hide mobile class */
+
+    .tab-desk {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile, .mobile-tablet {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: none;
+    }
+
+    .lgdesktop {
+        display: none;
+    }
+
+    /* Tablet Viewport: Style rules for nav area */
+
+    nav {
+        height: 52px;
+        position: sticky;
+        width: 100%;
+        top: 0;
+        overflow: hidden;
+        z-index: 999999;
+    }
+
+    nav ul {
+        list-style-type: none;
+        text-align: center;
+        border: solid #FEA444;
+        line-height: 33px;
+    }
+
+    nav li {
+        border-top: none;
+        display: inline-block;
+        font-size: .8em;
+        font-family: Geneva, Arial, sans-serif;
+        font-weight: 700;
+        padding: 0px;
+    }
+
+    nav li a {
+        padding: 0.5em;
+        display: block;
+        color: #f6eee4;
+        text-decoration: none;
+    }
+
+    /* Tablet Viewport for Main */
+
+    .tabbio {
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .grid1 {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-gap: 10px;
+        grid-area: 1 / 1 / span 1 / span 2;
+        text-align: center;
+        align-content: center;
+    }
+
+    .grid2 {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+        grid-gap: 10px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .grid3 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto;
+        grid-gap: 10px;
+        text-align: center;
+        align-content: center;
+    }
+
+    figure {
+        box-shadow: 6px 6px 10px #c5a687;
+    }
+    
+    .figurevideos {
+        box-shadow: 6px 6px 10px #F45156;
+    }
+    
+    .figurephoto {
+        box-shadow: 6px 6px 10px #c5a687;
+    }
+
+    aside {
+        grid-column: 1 / span 2;
+    }
+
+    /* Tablet Viewport: Style rules for footer area */
+
+    footer {
+        overflow: auto;
+        text-align: center;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+}
+
+/* Media Query for Desktop Viewport */
+
+@media screen and (min-width: 1000px), print {
+
+    /* Desktop Viewport: Show desktop class */
+
+    .desktop {
+        display: block;
+    }
+
+    .mobile, .mobile-tablet, .tab-desk {
+        display: none;
+    }
+
+    .lgdesktop {
+        display: none;
+    }
+
+   /* Desktop Viewport: Style rules for nav area */
+
+    nav {
+        height: 52px;
+    }
+
+    nav ul {
+        line-height: 15px;
+    }
+
+    nav li {
+        border-top: none;
+        font-size: 1.3em;
+        font-weight: 700;
+    }
+
+    nav li a {
+        font-size: 1.5em;
+    }
+
+   nav li a:hover {
+        color: #2a1f14;
+        background-color: #f6eee4;
+        opacity: 0.5;
+    }
+
+    /* Desktop Viewport: Style rules for main content */
+
+    .bio {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+
+    #info ul {
+        margin-left: 5%;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 30px;
+    }
+
+    aside {
+        grid-column: 1 / span 3;
+        font-size: 2em;
+    }
+
+    table {
+        border: 1px solid #2a1f14;
+        border-collapse: collapse;
+        margin: 0 auto;
+    }
+
+    caption {
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 1%
+    }
+
+    th, td {
+        border: 1px solid #2a1f14;
+        padding: 1%;
+    }
+
+    th {
+        background-color: #2a1f14;
+        color: #fff;
+        font-size: 1.15em;
+    }
+
+    tr:nth-child(odd){
+        background-color: #deccba;
+    }
+
+}
+
+/* Media Query for Large Desktop Viewports */
+
+@media screen and (min-width: 1921px) {
+
+    /* Large Desktop Viewport: Style rules for display */
+
+    .lgdesktop {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile, .mobile-tablet {
+        display: none;
+    }
+
+    .tab-desk {
+        display: none;
+    }
+
+    /* Large Desktop Viewport: Style rules for nav bar */
+
+    nav {
+        height: 62.3px;
+    }
+
+    nav ul {
+        line-height: 11px;
+        border-width: 5px;
+    }
+
+    nav li {
+        font-weight: 700;
+        padding: 2px;
+        font-size: 1em;
+    }
+
+    nav li a {
+        padding: 0.5em;
+    }
+
+    /* Large Desktop Viewport: Style rules for body */
+
+    .background {
+        background: linear-gradient(to bottom, 	#ff474c , #711F22, #8B0000);
+        background-size: contain;
+    }
+
+    figure {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    #wrapper {
+        width: 1920px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.6em;
+    }
+
+    .mainhome {
+        background-color: #FFEAEB;
+        padding: 2%;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .mainphoto {
+        background-color: #FFD6D7;
+        padding: 2%;
+        font-family: "Raleway", sans-serif;
+    }
+
+    .mainillust {
+        background-color: #FFC1C3;
+        padding: 2%;
+        font-family: "Ubuntu", sans-serif;
+    }
+
+    .mainvideo {
+        background-color: #FF7074;
+    }
+
+    .lgbio {
+        text-align: center;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+
+    aside {
+        grid-column: 1 / span 4;
+        font-size: 3em;
+    }
+}
+
+/* Media Query for Print */
+
+@media print {
+    body {
+        background-color: white;
+        font-display: black;
+    }
+}
