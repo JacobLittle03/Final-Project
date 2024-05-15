@@ -180,22 +180,36 @@ main p {
     background-color: #FFD6D7;
     padding: 2%;
     font-family: "Raleway", sans-serif;
+    color: #E23F44;
+    text-shadow: 3px 3px 7px #fff;
+    font-weight: 500;
 }
 
 .mainillust {
     background-color: #FFC1C3;
     padding: 2%;
     font-family: "Ubuntu", sans-serif;
+    color: #C6373C;
+    text-shadow: 3px 3px 7px #fff;
+    font-weight: 500;
 }
 
 .maintrad {
     background-color: #FFADB0;
     padding: 2%;
     font-family: "Manrope", sans-serif;
+    color: #AA2F33;
+    text-shadow: 3px 3px 7px #fff;
+    font-weight: 500;
 }
 
 .mainvideo {
     background-color: #FF7074;
+    padding: 2%;
+    font-family: "Vollkorn", serif;
+    color: #551719;
+    text-shadow: 3px 3px 5px #fff;
+    font-weight: 500;
 }
 
 .pindex {
@@ -203,10 +217,8 @@ main p {
     text-shadow: 2px 2px 5px #FF999C; 
 }
 
-.pvideo {
-    font-size: 1.25em;
-    color: #fff;
-    text-shadow: 3px 3px 5px #000;
+main h1 {
+    text-align: center;
 }
 
 main h3 {
@@ -222,12 +234,6 @@ main h2 {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-}
-
-.h2video {
-    text-align: center;
-    color: #fff;
-    text-shadow: 3px 3px 5px #000;
 }
 
 main ul {
@@ -262,8 +268,8 @@ aside {
     text-align: center;
 }
 
-figure {
-    border: 4px solid #2a1f14;
+.figureillust {
+    border: 4px solid #E23F44;
     max-width: 400px;
     margin: 2% auto;
 }
@@ -278,6 +284,56 @@ figure {
 .figurephoto {
     border: 4px solid #C6373C;
     margin: 2% auto;
+}
+
+.figurephoto1 {
+    border: 4px solid #C6373C;
+    margin: 2% auto;
+    max-width: 40%;
+}
+
+.figurephoto2 {
+    border: 4px solid #C6373C;
+    margin: 2% auto;
+    max-width: 50%;
+}
+
+.figurephoto3 {
+    border: 4px solid #C6373C;
+    margin: 2% auto;
+    max-width: 70%;
+}
+
+.figuretrad {
+    border: 4px solid #C6373C;
+    margin: 2% auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.figuretriptych {
+    border: 4px solid #C6373C;
+    margin: 2% auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.figuregridtrad1 {
+    border: 4px solid #C6373C;
+    margin: 2% auto;
+    max-width: 40%;
+}
+
+.figuregridtrad2 {
+    border: 4px solid #C6373C;
+    margin: 2% auto;
+    max-width: 70%;
+}
+
+.figuregridtrad3 {
+    border: 4px solid #C6373C;
+    margin: 2% auto;
+    max-width: 70%;
 }
 
 figcaption {
@@ -296,6 +352,13 @@ figcaption {
     background-repeat: no-repeat;
 }
 
+.figcaptionillust {
+    padding: 2%;
+    border-top: 4px solid #E23F44;
+    text-align: center;
+    background-color: #fff;
+}
+
 .figcaptionvideo {
     padding: 2%;
     border-top: 4px solid #380F11;
@@ -309,9 +372,21 @@ figcaption {
     border: none;
 }
 
+.hrillust {
+    height: 4px;
+    background-color: #E23F44;
+    border: none;
+}
+
+.hrtrad {
+    height: 4px;
+    background-color: #AA2F33;
+    border: none;
+}
+
 .hrvideo {
     height: 4px;  
-    background-color: #AA2F33;   
+    background-color: #8D272B;   
     border: none; 
 }
 
@@ -437,6 +512,10 @@ footer a {
     }
 
     figure {
+        border: 4px solid #2a1f14;
+    }
+
+    .figure {
         box-shadow: 6px 6px 10px #c5a687;
     }
     
@@ -526,38 +605,6 @@ footer a {
         grid-gap: 30px;
     }
 
-    aside {
-        grid-column: 1 / span 3;
-        font-size: 2em;
-    }
-
-    table {
-        border: 1px solid #2a1f14;
-        border-collapse: collapse;
-        margin: 0 auto;
-    }
-
-    caption {
-        font-size: 1.5em;
-        font-weight: bold;
-        padding: 1%
-    }
-
-    th, td {
-        border: 1px solid #2a1f14;
-        padding: 1%;
-    }
-
-    th {
-        background-color: #2a1f14;
-        color: #fff;
-        font-size: 1.15em;
-    }
-
-    tr:nth-child(odd){
-        background-color: #deccba;
-    }
-
 }
 
 /* Media Query for Large Desktop Viewports */
@@ -604,6 +651,12 @@ footer a {
     }
 
     /* Large Desktop Viewport: Style rules for body */
+
+    .figuretriptychlg {
+        border: 4px solid #C6373C;
+        margin: 2% auto;
+        max-width: 5000px;
+    }
 
     .background {
         background: linear-gradient(to bottom, 	#ff474c , #711F22, #8B0000);
