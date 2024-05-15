@@ -16,7 +16,7 @@ body, header, nav, main, footer, img, h1, h3, ul, aside, figure, figcaption, vid
 */
 
 body {
-    background-color: #FFEAEB;
+    background-color: #FFDBDC;
 }
 
 .bodyphoto {
@@ -79,7 +79,7 @@ video {
 
 .skip:focus {
     color: #fff;
-    background-color: #2a1f14;
+    background-color: #ff474c;
     text-decoration: none;
     padding: 0.5%;
     top: auto;
@@ -171,7 +171,7 @@ main p {
 }
 
 .mainhome {
-    background-color: #FFEAEB;
+    background-color: #FFDBDC;
     padding: 2%;
     font-family: "Poppins", sans-serif;
 }
@@ -217,12 +217,18 @@ main p {
     text-shadow: 2px 2px 5px #FF999C; 
 }
 
+.pindexmobile {
+    color: #000;
+    font-weight: 700;
+}
+
 main h1 {
     text-align: center;
 }
 
 main h3 {
     padding-top: 2%;
+    text-align: center;
 }
 
 main h2 {
@@ -274,6 +280,24 @@ aside {
     margin: 2% auto;
 }
 
+.figuregridillust1 {
+    border: 4px solid #E23F44;
+    margin: 2% auto;
+    max-width: 40%;
+}
+
+.figuregridillust2 {
+    border: 4px solid #E23F44;
+    margin: 2% auto;
+    max-width: 70%;
+}
+
+.figuregridillust3 {
+    border: 4px solid #E23F44;
+    margin: 2% auto;
+    max-width: 70%;
+}
+
 .figurevideos {
     border: 4px solid #380F11;
     max-width: 100%;
@@ -292,10 +316,70 @@ aside {
     max-width: 40%;
 }
 
+.figurephoto1contingency {
+    border: 4px solid #C6373C;
+    margin: 2% auto;
+    max-width: 25%;
+}
+
+.figurephoto1contingency2 {
+    border: 4px solid #C6373C;
+    margin: 2% auto;
+    max-width: 30%;
+}
+
 .figurephoto2 {
     border: 4px solid #C6373C;
     margin: 2% auto;
+    max-width: 60%;
+}
+
+.figurephoto2contingency {
+    border: 4px solid #C6373C;
+    margin: 2% auto;
     max-width: 50%;
+}
+
+.figurephoto2contingency2 {
+    border: 4px solid #C6373C;
+    margin-right: 2% auto;
+    max-width: 64%;
+}
+
+.figurephoto2contingency3 {
+    border: 4px solid #C6373C;
+    margin: 2% auto;
+    max-width: 70%;
+}
+
+.figurephoto2contingency4 {
+    border: 4px solid #C6373C;
+    margin: 2% auto;
+    max-width: 67%;
+}
+
+.figurephoto2contingency5 {
+    border: 4px solid #C6373C;
+    margin: 2% auto;
+    max-width: 51%;
+}
+
+.figurephoto2contingency6 {
+    border: 4px solid #C6373C;
+    margin: 2% auto;
+    max-width: 37.5%;
+}
+
+.figurephoto2contingency7 {
+    border: 4px solid #C6373C;
+    margin: 2% auto;
+    max-width: 52%;
+}
+
+.figurephoto2contingency8 {
+    border: 4px solid #C6373C;
+    margin: 2% auto;
+    max-width: 51.5%;
 }
 
 .figurephoto3 {
@@ -334,6 +418,12 @@ aside {
     border: 4px solid #C6373C;
     margin: 2% auto;
     max-width: 70%;
+}
+
+.figuregridtradcontingency1 {
+    border: 4px solid #C6373C;
+    margin: 2% auto;
+    max-width: 30%;
 }
 
 figcaption {
@@ -400,9 +490,11 @@ figcaption {
 footer {
     text-align: center;
     font-family: Georgia, serif;
-    font-size: 0.85em;
+    font-size: 1em;
+    font-weight: 700;
     background-color: #D5211D;
     color: #f6eee4;
+    text-shadow: 3px 3px 5px #000;
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 1%;
@@ -632,11 +724,11 @@ footer a {
     /* Large Desktop Viewport: Style rules for nav bar */
 
     nav {
-        height: 62.3px;
+        height: 62px;
     }
 
     nav ul {
-        line-height: 11px;
+        line-height: 10.9px;
         border-width: 5px;
     }
 
